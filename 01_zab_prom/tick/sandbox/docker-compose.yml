@@ -36,11 +36,11 @@ services:
       - influxdb
     volumes:
       # Mount for telegraf configuration
-      # - ./telegraf/:/etc/telegraf/
+       - ./telegraf/:/etc/telegraf/
       # Mount for Docker API access
-      # - /var/run/docker.sock:/var/run/docker.sock
-      - ./etc/telegraf.conf:/etc/telegraf/telegraf.conf:Z
-      - /var/run/docker.sock:/var/run/docker.sock:Z
+       - /var/run/docker.sock:/var/run/docker.sock
+      # - ./etc/telegraf.conf:/etc/telegraf/telegraf.conf:Z
+      # - /var/run/docker.sock:/var/run/docker.sock:Z
     depends_on:
       - influxdb
 
