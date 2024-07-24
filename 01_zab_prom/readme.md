@@ -1,3 +1,5 @@
+Ссылка на домашнее задание - [github](https://github.com/netology-code/mnt-homeworks/blob/MNT-video/10-monitoring-02-systems/README.md)
+
 1. 
 В соответствии с четырьмя золотыми сигналами в подходе SRE необходимо вывести метрики:
 
